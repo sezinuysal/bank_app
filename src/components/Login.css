@@ -1,0 +1,82 @@
+.login-box {
+  width: 360px;
+  padding: 40px;
+  margin: auto;
+  margin-top: 60px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.label {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #e53935;
+  font-size: 12px;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-container .icon {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+  color: #666;
+}
+
+.input-container.error {
+  border: 1px solid red;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.password-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button,
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: #d219b9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-button {
+  background-color: #2196f3;
+}
